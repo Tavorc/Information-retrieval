@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Information retrieval project</title>
+	<link rel="stylesheet" href="includes/style.css">
+	<script src="includes/jquery-2.1.4.min.js"></script>
+	<script src="includes/text.js"></script>
+</head>
+<body> 
+	<input id="help" type="button" value="Help"> 
+	<div id="liteBoxDiv">
+          </div>
+	<div id="page-wrapper">
+		
+		
+          <h1>Information Retrieval Project</h1>
+		<div id="documentAdded"><p> &nbsp  Attached documents</p> </div>
+		<div id="testArea">
+			<input type="file" id="fileInput"><br><br>
+			<input id="deleteDB" type="button" value="delete DB">
+			<input id="addOneFile" type="button" value="Add one file"> 
+			<input id="addFiles" type="button" value="Add Documents"> <br><br><br>
+			<input type="button" id="searchButton" value="Search"> <input id="searchLine" type="text" name="fullName" required  value="" maxlength="50"><br>
+		</div>
+		<h3>Results :</h3>
+	</div>
+	<div id="secondDiv">
+		<h4 id="titleSecondDiv">The Full Document</h4>
+		<div id="allDocument">
+		</div>
+	</div>
+			<script> 
+            	(function(){
+            		start();
+     	  			 })(); 
+		    </script>
+</body>
+</html>
